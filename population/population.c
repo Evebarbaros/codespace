@@ -21,6 +21,6 @@ while (ns > ni)
 
     // TODO: Calculate number of years until we reach threshold
 for ( i= 0 , n = n + (n/3) - (n/4)) , n <= 0);
-print(%i,n)
+         printf("the number is %i/n ",n )
     // TODO: Print number of years
 }
