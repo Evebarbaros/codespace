@@ -20,6 +20,7 @@ do
 while (ns > ni)
 
     // TODO: Calculate number of years until we reach threshold
-n 
+for ( i= 0 , n = n + (n/3) - (n/4)) , n <= 0);
+print(%i,n)
     // TODO: Print number of years
 }
