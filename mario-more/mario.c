@@ -3,5 +3,6 @@
 
 int main(void)
 {
-    printf("####\n");
+    int n = get-int ("add number")
+    printf("%i\n",n);
 }
