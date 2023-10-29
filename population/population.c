@@ -18,7 +18,6 @@ do
     end = get_int("add ending number : ");
 }
 while (end > start)
-
     // TODO: Calculate number of years until we reach threshold
 
 }
