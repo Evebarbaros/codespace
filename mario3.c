@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
+
 int main(void);
-    int n ;
+
+    int n = 3 ;
     do
     {
         n = get_int("Size : ");
