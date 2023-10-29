@@ -11,9 +11,9 @@ int main(void)
     while ( n < 1 ) ;
 
     {
-    for ( int i = 0 ; j < n ; j * n)
+    for ( int i = 0 ; j < n ; j++)
         {
-            printf("#  # ");
+            printf("#") <<
         }
 
     }
