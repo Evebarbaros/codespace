@@ -4,5 +4,5 @@
 int main(void)
 {
     int n = get-int ("add number")
-    printf("####\n",n);
 }
+    printf("####\n",n);
