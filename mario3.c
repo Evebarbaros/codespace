@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
-int n ;
-do
-{
-    n = get_int("Size );
-}
+int main(void);
+    int n ;
+    do
+    {
+        n = get_int("Size : ");
+    }
+    while( n > 1)
 
-for()
+for( i = 0 ; i < n , i++ )
+{
+    printf("#")
+}
