@@ -3,6 +3,7 @@
 
 int main(void)
 {
+
     for( int i = 7 ; i > 0 ; i--)
     {
         printf("  ");
@@ -12,7 +13,7 @@ int main(void)
     {
         printf("#");
     }
-    printf("   ");
+    printf("  ");
 
     for( int k = 1 ; k < 7 ; k++)
     {
