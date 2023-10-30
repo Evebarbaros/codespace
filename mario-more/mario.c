@@ -3,8 +3,8 @@
 
 int main(void)
 {
-
-    for( int i = 7 ; i > 0 ; i--)
+    int n = 7;
+    for( int i = n ; i > 0 ; i--)
     {
         printf("  ");
     }
