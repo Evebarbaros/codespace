@@ -3,19 +3,21 @@
 
 int main(void)
 {
-    int n = 7;
-    for( i = n ; i < 0 ; i--)
+    for( int i = 7 ; i > 0 ; i--)
     {
         printf(".");
     }
 
-    for( j = 0 ; j > n ; j++)
+    for( int j = 0 ; j > 7 ; j++)
     {
         printf("#");
-    }printf("  ");
+    }
+    printf("  ");
 
-    for( k = 0 ; k > n ; k++)
+    for( int k = 0 ; k > 7 ; k++)
     {
-        pritnf("#");
-    }printf("\n");
+        printf("#");
+    }
+    printf("\n");
+
 }
