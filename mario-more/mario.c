@@ -1,22 +1,21 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
-    int n = 8;
-    for( int i = n ; i > 1 ; i--)
+    int n = 7;
+    for( i = n ; i < 0 ; i--)
     {
-        printf("  ");
+        printf(".");
     }
 
-    for( int j = 1 ; j < n ; j++)
+    for( j = 0 ; j > n ; j++)
     {
-        for( int k = 1 ; k < n ; k++)
         printf("#");
-        printf("  ");
-        printf("#");
-        printf("\n");
-    }
+    }printf("  ");
 
-
+    for( k = 0 ; k > n ; k++)
+    {
+        pritnf("#");
+    }printf("\n");
 }
