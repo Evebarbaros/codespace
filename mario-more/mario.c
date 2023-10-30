@@ -12,11 +12,7 @@ int main(void)
     for( int j = 1 ; j < n ; j++)
     {
         printf("#");
-    }
-    printf("  ");
-
-    for( int k = 1 ; k < n ; k++)
-    {
+        printf("  ");
         printf("#");
     }
     printf("\n");
